@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    color: rgb(41, 40, 40);
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    position: static;
+    bottom: 0;
+    height: 56px;
+    width: 100%;
+    background: rgb(213,166,243);
+    background: linear-gradient(90deg, rgba(213,166,243,1) 28%, rgba(156,27,238,1) 100%);
+}
+
+footer > h3,h4{
+    font-size: 16px;
+    margin: 0;
+}
+
+.redesSociales{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.mail{
+    height: 25px;
+    width: auto;
+    margin: 0px 10px 0 10px;
+}
+
+.fb{
+    height: 25px;
+    width: auto;
+    margin: 0px 10px 0 10px;
+}
+
+.ig{
+    height: 25px;
+    width: auto;
+    margin: 0px 10px 0 10px;
+}
+
+.cards{
+    margin-top: 50px;
+}
+
+.card{
+    margin-left: 10px;
+}
+
+.cardImg:hover{
+    opacity: 0.8;
+    scale: 1.5;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+/*                           CONTACTO                     */
+
+
+
+
+
+.tittleAbUs{
+    margin: 40px 0 50px 0px;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    color: rgb(198, 134, 238);
+}
+
+.contentContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.descriptContact{
+    width: 400px;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    padding-right: 30px;
+    border-right: 5px solid;
+}
+
+.tittleFormas{
+    font-weight: 400;
+}
+
+.formasContact{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mailContact{
+    height: 100px;
+    width: auto;
+}
+
+.wsppContact{
+    height: 100px;
+    width: auto;
+}
