@@ -43,7 +43,7 @@ function crearCard (producto) {
     sectionProductos.appendChild(card);
     //creo divs que contengan las imagenes de los productos y se los asigno como hijos a las cards
     let cardImg = document.createElement("div");
-    cardImg.innerHTML = `<img src="./media/${producto.id}.jpg" class="card-img-top" alt="${producto.nombre}"></img>`;
+    cardImg.innerHTML = `<img src="./img/${producto.id}.jpg" class="card-img-top" alt="${producto.nombre}"></img>`;
     card.appendChild(cardImg);
     //creo divs que contengan los nombres de los productos y los botones, despues se los asigno como hijos a las cards
     let cardBody = document.createElement("div");

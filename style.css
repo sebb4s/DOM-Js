@@ -3,6 +3,21 @@
     margin: 0;
 }
 
+#section-productos {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-producto {
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+}
+
+
 footer{
     color: rgb(41, 40, 40);
     display: flex;
@@ -46,20 +61,6 @@ footer > h3,h4{
     height: 25px;
     width: auto;
     margin: 0px 10px 0 10px;
-}
-
-.cards{
-    margin-top: 50px;
-}
-
-.card{
-    margin-left: 10px;
-}
-
-.cardImg:hover{
-    opacity: 0.8;
-    scale: 1.5;
-    transition: 1s;
 }
 
 
@@ -117,3 +118,4 @@ footer > h3,h4{
     height: 100px;
     width: auto;
 }
+
